@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check out</title>
+    <link rel="stylesheet" href="check.css">
+    <link rel="icon" href="icon/logo transparent.png" type="image/png">
+    <script src="accueil.js"></script>
+</head>
+<body>
+<!--promo-->
+<header class="header">
+    <p>Get FREE Shipping when you buy 2 or more books!📦</p>
+</header>
+<!--nav_search-->
+    <nav class="nav">
+        <li class="menu_button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="26" fill="#fafafa"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        <a href="accueil.html"><img src="icon/logo sktech.01.png"  class="logo"></a>
+        <div class="search_box">
+            <input type="search" placeholder="Search books, authors">
+            
+        </div>
+            <a href="login.html"><img src="icon/login icon.png" class="icon"></a>
+            <a href="cart.html"><img src="icon/cart icon.png" class="icon"></a>
+
+</nav>
+
+    <nav class="type">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="26" fill="#fafafa"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            </ul> 
+
+        <ul class="ul_bar">
+            <li class="hideOnMobile"><a href="#">Best Sellers</a></li>
+            <li class="hideOnMobile"><a href="#">Manga</a></li>
+            <li class="hideOnMobile"><a href="#">Non-Fiction</a></li>
+            <li class="hideOnMobile"><a href="#">Kids</a></li>
+            <li class="hideOnMobile"><a href="#">Fiction</a></li>
+            <li class="hideOnMobile"><a href="#">About Us</a></li>
+            <li class="hideOnMobile"><a href="#">Contact Us</a></li>
+        </ul>
+</nav>
+
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Billing Address</h3>
+                    <div class="inputBox">
+                        <span>First Name :</span>
+                        <input type="text" placeholder="First Name">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Last Name :</span>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Email :</span>
+                        <input type="text" placeholder="xxxx@gmail.com">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Address :</span>
+                        <input type="text" placeholder="Street - Room">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>City :</span>
+                        <input type="text" placeholder="City">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3 class="title">Payment</h3>
+
+                    <div class="inputBox">
+                        <span>Cards accepted :</span>
+                        <img src="icon/paying methods.png">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Name on card :</span>
+                        <input type="text" placeholder="Mr. xxxx">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Credit card number :</span>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Exp month :</span>
+                        <input type="text" placeholder="January">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Exp year :</span>
+                        <input type="number" placeholder="2024">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="number" placeholder="1234">
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Proceed to checkout</button>
+        </form>
+    </div>
+
+<!--footer-->
+<footer>
+    <div class="footerContainer">
+        <div class="footerNav">
+            <h2>MORE INFO</h2>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">F.A.Q</a></li>
+            </ul>
+        </div>
+
+        <div class="socialIcons">
+            <a href=""><img src="icon/facebook.png"></a>
+            <a href=""><img src="icon/instagram.png"></a>
+            <a href=""><img src="icon/twitter.png"></a>
+        </div>
+
+        <div class="footerBottom">
+<p>Copyright © 2023, All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

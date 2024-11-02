@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Books</title>
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="icon/logo transparent.png" type="image/png">
+    <script src="accueil.js"></script>
+</head>
+<body>
+<!--promo-->
+    <header class="header">
+    <p>Get FREE Shipping when you buy 2 or more books!📦</p>
+</header>
+<!--nav_search-->
+    <nav class="nav">
+        <li class="menu_button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="26" fill="#fafafa"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        <img src="icon/logo sktech.01.png" alt="Blossom" class="logo">
+        <div class="search_box">
+            <input type="search" placeholder="Search books, authors">
+            
+        </div>
+            <a href="login.html"><img src="icon/login icon.png" class="icon"></a>
+            <a href="cart.html"><img src="icon/cart icon.png" class="icon"></a>
+
+</nav>
+<!--nav_bar-->
+    <nav class="type">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="26" fill="#fafafa"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            </ul> 
+
+        <ul class="ul_bar">
+            <li class="hideOnMobile"><a href="#">Best Sellers</a></li>
+            <li class="hideOnMobile"><a href="#">Manga</a></li>
+            <li class="hideOnMobile"><a href="#">Non-Fiction</a></li>
+            <li class="hideOnMobile"><a href="#">Kids</a></li>
+            <li class="hideOnMobile"><a href="#">Fiction</a></li>
+            <li class="hideOnMobile"><a href="#">About Us</a></li>
+            <li class="hideOnMobile"><a href="#">Contact Us</a></li>
+        </ul>
+</nav>
+<!--content-->
+<h1>BEST MANGA</h1>
+    <section class="gallery">
+    
+        <div class="content"  >
+            <img src="manga/berserk.webp">
+            <h3>Berserk Vol.1</h3>
+            <p>KENTARŌ MIURA</p>
+            <h6>100.00 dh</h6>
+            <div  data-name="p-1" class="tocart" ><button class="buy">add to cart</button></div>
+        </div>
+        
+        <div class="content">
+            <a href="products.html"  >
+                <img src="manga/vagabond.webp">
+            </a>
+            <h3>Vagabond Vol.1</h3>
+            <p>TAKEHIKO INOUÉ</p>
+            <h6>117.00 dh</h6>
+            <div data-name="p-2"  class="tocart"><button class="buy">add to cart</button></div>
+        </div>
+        
+        <div class="content" >
+            <img src="manga/jujutsu.webp">
+            <h3>Jujutsu kaisen Vol.8</h3>
+            <p>GEGE AKUTAMI</p>
+            <h6>107.00 dh</h6>
+            <div data-name="p-3"  class="tocart" ><button class="buy">add to cart</button></div>
+        </div>
+
+        <div class="content">
+            <img src="manga/chainsaw man.png">
+            <h3>Chainsaw Man Vol.1</h3>
+            <p>TATSUKI FUJIMOTO</p>
+            <h6>102.00 dh</h6>
+          <div data-name="p-4"  class="tocart" ><button class="buy">add to cart</button></div>
+        </div>
+
+        <div class="content">
+            <img src="manga/soul eater.jpg">
+            <h3>Soul Eater Vol.1</h3>
+            <p>ATSUSHI OHKUBO</p>
+            <h6>109.00 dh</h6>
+          <div data-name="p-5"  class="tocart" ><button class="buy">add to cart</button></div>
+        </div>
+        
+        <div class="content">
+            <img src="manga/naruto.webp">
+            <h3>Naruto Vol.1</h3>
+            <p>MASASHI KISHIMOTO</p>
+            <h6>106.00 dh</h6>
+          <div data-name="p-6"  class="tocart" ><button class="buy">add to cart</button></div>
+        </div>
+
+        <div class="content">
+            <img src="manga/one piece yooo.png">
+            <h3>One Piece, Vol.1</h3>
+            <p>EIICHIRO ODA</p>
+            <h6>152.00 dh</h6>
+          <div data-name="p-7"  class="tocart" ><button class="buy">add to cart</button></div>
+        </div>
+        
+        <div class="content">
+            <img src="manga/bleu lock.jpg">
+            <h3>Blue Lock, Vol. 1</h3>
+            <p>MUNEYUKI KANESHIRO</p>
+            <h6>111.00 dh</h6>
+          <div data-name="p-8"  class="tocart" ><button class="buy">add to cart</button></div>
+        </div>
+    </section>
+
+   <h1>BEST SELLERS</h1>
+    <section class="gallery">
+    
+        <div class="content">
+            <img src="best sellers/atomic habits.png">
+            <h3>Atomic Habits</h3>
+            <p>JAMES CLEAR</p>
+            <h6>120.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <a href="">
+            <img src="best sellers/it ends with us.png">
+            </a>
+            <h3>It Ends with Us</h3>
+            <p>COLLEEN HOOVER</p>
+            <h6>125.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="best sellers/psycho money.png">
+            <h3>The Psychology of Money</h3>
+            <p>MORGAN HOUSEL</p>
+            <h6>116.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="best sellers/ikigai.png">
+            <h3>Ikigai</h3>
+            <p>HÉCTOR GARCÍA</p>
+            <h6>115.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="best sellers/compound effect.png">
+            <h3>The Compound effect</h3>
+            <p>DARREN HARDY</p>
+            <h6>110.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <img src="best sellers/they both die.png">
+            <h3>They Both Die at the End</h3>
+            <p>ADAM SILVERA</p>
+            <h6>120.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="best sellers/poor dad.png">
+            <h3>Rich Dad Poor Dad</h3>
+            <p>ROBERT KIYOSAKI</p>
+            <h6>115.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <img src="best sellers/zero to one.png">
+            <h3>Zero to One</h3>
+            <p>PETER THIEL, BLAKE MASTERS</p>
+            <h6>105.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+    </section>
+
+
+    <h1>BEST OF NON-FICTION</h1>
+    <section class="gallery">
+    
+        <div class="content">
+            <img src="non fiction/trader discipline.png">
+            <h3>The Disciplined Trader</h3>
+            <p>MARK DOUGLAS</p>
+            <h6>112.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <a href="">
+            <img src="non fiction/Ego.png">
+            </a>
+            <h3>Ego Is the Enemy</h3>
+            <p>RYAN HOLIDAY</p>
+            <h6>105.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <img src="non fiction/the midnight lib...png">
+            <h3>The Midnight Library</h3>
+            <p>MATT HAIG</p>
+            <h6>121.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="non fiction/peaky.png">
+            <h3>Peaky Blinders</h3>
+            <p>CARL CHINN</p>
+            <h6>115.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="non fiction/the art of war.png">
+            <h3>The Art of War</h3>
+            <p>SUN TZU</p>
+            <h6>109.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <img src="non fiction/power.png">
+            <h3>The 48 Laws of Power</h3>
+            <p>ROBERT GREENE</p>
+            <h6>139.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="non fiction/milk and honey.png">
+            <h3>Milk and Honey</h3>
+            <p>RUPI KAUR</p>
+            <h6>110.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <img src="non fiction/art of seduction.png">
+            <h3>The Art of Seduction</h3>
+            <p>ROBERT GREENE</p>
+            <h6>130.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+    </section>
+
+    <h1>BEST OF FICTION</h1>
+    <section class="gallery">
+    
+        <div class="content">
+            <img src="fiction/the old man...png">
+            <h3>Old Man and the Sea</h3>
+            <p>ERNEST HEMINGWAY</p>
+            <h6>89.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <a href="">
+            <img src="fiction/imagine me.png">
+            </a>
+            <h3>Shatter Me: Imagine Me</h3>
+            <p>TAHEREH MAFI</p>
+            <h6>105.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="fiction/ripper.png">
+            <h3>Stalking Jack the Ripper</h3>
+            <p>KERRI MANISCALCO</p>
+            <h6>121.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="fiction/two can....png">
+            <h3>Two Can Keep a Secret</h3>
+            <p>KAREN M. MCMANUS</p>
+            <h6>117.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <img src="fiction/the name...png">
+            <h3>The Name of the Wind</h3>
+            <p>PATRICK ROTHFUSS</p>
+            <h6>209.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="fiction/apples never...png">
+            <h3>Apples Never Fall</h3>
+            <p>LIANE MORIARTY</p>
+            <h6>133.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+        
+        <div class="content">
+            <img src="fiction/a murder.png">
+            <h3>A Murder Is Announced</h3>
+            <p>AGATHA CHRISTIE</p>
+            <h6>116.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+
+        <div class="content">
+            <img src="fiction/death on the...png">
+            <h3>Death on the Nile</h3>
+            <p>AGATHA CHRISTIE</p>
+            <h6>119.00 dh</h6>
+            <button class="buy">add to cart</button>
+        </div>
+    </section>
+<!--cart products/keep shoping-->
+<div class="products-preview"  >
+
+    <div class="preview" data-target="p-1">
+        
+     <img src="manga/berserk.webp" alt="">
+      <h3>Berserk Vol.1</h3>
+      <p>KENTARŌ MIURA</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">100.00 dh</div>
+      <div class="buttons">
+        <a class="kshopping" >KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-2">
+        
+     <img src="manga/vagabond.webp" alt="">
+      <h3>Vagabond Vol.1</h3>
+      <p>TAKEHIKO INOUÉ</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">117.00 dh</div>
+      <div class="buttons">
+           <a class="kshopping" >KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-3">
+        
+     <img src="manga/jujutsu.webp" alt="">
+      <h3>Jujutsu kaisen Vol.8</h3>
+      <p>GEGE AKUTAMI</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">107.00 dh</div>
+      <div class="buttons">
+           <a class="kshopping" >KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-4">
+        
+     <img src="manga/chainsaw man.png" alt="">
+      <h3>Chainsaw Man Vol.1</h3>
+      <p>TATSUKI FUJIMOTO</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">102.00 dh</div>
+      <div class="buttons">
+           <a class="kshopping" >KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-5">
+        
+     <img src="manga/soul eater.jpg" alt="">
+      <h3>Soul Eater Vol.1</h3>
+      <p>ATSUSHI OHKUBO</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">109.00 dh</div>
+      <div class="buttons">
+           <a class="kshopping" >KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-6">
+        
+     <img src="manga/naruto.webp" alt="">
+      <h3>Naruto Vol.1</h3>
+      <p>MASASHI KISHIMOTO</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">106.00 dh</div>
+      <div class="buttons">
+           <a class="kshopping" >KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-7">
+        
+     <img src="manga/one piece yooo.png" alt="">
+      <h3>One Piece, Vol.1</h3>
+      <p>EIICHIRO ODA</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">152.00 dh</div>
+      <div class="buttons">
+           <a class="kshopping" >KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-8">
+        
+     <img src="manga/bleu lock.jpg" alt="">
+      <h3>Blue Lock, Vol. 1</h3>
+      <p>MUNEYUKI KANESHIRO</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         <span>(250)</span>
+        </div>
+      <div class="price">111.00 dh</div>
+      <div class="buttons">
+           <a class="kshopping">KEEP SHOPPING</a>
+          <a href="cart.html" class="check">CHECK OUT</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-9">
+        
+        <img src="best sellers/atomic habits.png" alt="">
+         <h3>Atomic Habits</h3>
+         <p>JAMES CLEAR</p>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+            <span>(250)</span>
+           </div>
+         <div class="price">120.00 dh</div>
+         <div class="buttons">
+           <a class="kshopping" >KEEP SHOPPING</a>
+             <a href="cart.html" class="check">CHECK OUT</a>
+         </div>
+       </div>
+</div>
+
+<!--footer-->
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <h2>MORE INFO</h2>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                </ul>
+            </div>
+    
+            <div class="socialIcons">
+                <a href=""><img src="icon/facebook.png"></a>
+                <a href=""><img src="icon/instagram.png"></a>
+                <a href=""><img src="icon/twitter.png"></a>
+            </div>
+
+            <div class="footerBottom">
+    <p>Copyright © 2023, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
